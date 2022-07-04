@@ -12,8 +12,8 @@ let prezzoIntero = (kilometriDaFare * prezzoKilometro);
 prezzoIntero = prezzoIntero.toFixed(2);
 
 // Calcolo Percentuali
-let percentualeMinorenne = (20 / 100);
-let percentualeOver = (40 / 100);
+const percentualeMinorenne = (20 / 100);
+const percentualeOver = (40 / 100);
 
 // Applicazione Sconti
 if (eta === 0 || eta > 105) {
