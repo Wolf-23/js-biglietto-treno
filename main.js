@@ -9,7 +9,7 @@ const prezzoKilometro = 0.21;
 
 // Calcolo Prezzo Intero 
 let prezzoIntero = (kilometriDaFare * prezzoKilometro);
-prezzoIntero = prezzoIntero.toFixed(2);100
+prezzoIntero = prezzoIntero.toFixed(2);
 
 // Calcolo Percentuali
 let percentualeMinorenne = (20 / 100);
