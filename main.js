@@ -17,7 +17,7 @@ const percentualeOver = (40 / 100);
 
 // Applicazione Sconti
 if (eta === 0 || eta > 105) {
-    alert("Inserisci un età valida e riprova!")
+    alert("Inserisci un età valida e riprova!");
 }
 else if (eta < 18) {
     let scontoMinorenni = (percentualeMinorenne * prezzoIntero);
@@ -27,7 +27,7 @@ else if (eta < 18) {
 } 
 else if (eta >= 65) {
     let scontoOver = (percentualeOver * prezzoIntero);
-    let prezzoOver = (prezzoIntero - scontoOver)
+    let prezzoOver = (prezzoIntero - scontoOver);
     prezzoOver = prezzoOver.toFixed(2);
     alert("Hai diritto al 40%  di sconto. Pagherai " + prezzoOver + "€");
 }
