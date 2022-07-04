@@ -1,13 +1,21 @@
-const kilometriDaFare = parseInt(prompt("Inserisci i chilometri che vuoi percorrere:" ));
-const eta = parseInt(prompt("Inserisci la tua età:" ));
+// Inserire KM da percorrere
+const kilometriDaFare = parseInt(prompt("Inserisci i chilometri che vuoi percorrere: "));
+
+// Inserire età passeggero
+const eta = parseInt(prompt("Inserisci la tua età: "));
+
+// Prezzo singolo Kilometro
 const prezzoKilometro = 0.21;
 
+// Calcolo Prezzo Intero 
 let prezzoIntero = (kilometriDaFare * prezzoKilometro);
 prezzoIntero = prezzoIntero.toFixed(2);100
+
+// Calcolo Percentuali
 let percentualeMinorenne = (20 / 100);
 let percentualeOver = (40 / 100);
 
-
+// Applicazione Sconti
 if (eta === 0 || eta > 105) {
     alert("Inserisci un età valida e riprova!")
 }
